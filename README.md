@@ -47,6 +47,8 @@ $ curl https://pyenv.run | bash
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 $ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 $ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+# 以下は二回目移行は実行する必要はない
+$ source ~/.bashrc
 ```
 以下のコマンドでインストールされたか確認する。
 ```bash
